@@ -442,9 +442,13 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
   margin: 0 auto;
-  padding: 61.43px 52px 45.77px 52px;
+  min-height: 273px;
+  padding: 0 52px;
 }
 
 .main-product__item {
@@ -746,7 +750,7 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 64px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   gap: 20px;
 }
 
