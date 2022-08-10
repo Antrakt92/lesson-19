@@ -216,6 +216,8 @@ h6 {
 
 .main-black__img {
   padding: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .main-black__header {
